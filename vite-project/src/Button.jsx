@@ -1,7 +1,7 @@
-export function Button({onClick}){
+export function Button({onClick, text}){
     return(
         <button onClick={onClick}>
-            Бупни меня!
+            {text}
         </button>
     )
 }

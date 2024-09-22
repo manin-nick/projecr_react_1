@@ -23,7 +23,7 @@ function App () {
       <Article user={"путник"} name={"лесник"}/>
       <Article user={"Странник"} name={"Гэндальф"}/>
 
-      <Button onClick={handleClick}/>
+      <Button onClick={handleClick} text={"Бупни меня!"}/>
 
     </div>
   );
